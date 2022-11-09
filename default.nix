@@ -1,7 +1,7 @@
 { kpkgs ? import ./deps/kpkgs {}
 }:
 let pkgs = kpkgs.pkgs;
-    haskellPackages = kpkgs.rp.ghc8_6;
+    haskellPackages = kpkgs.rp.ghc8_10;
 
 in haskellPackages.developPackage {
   name = builtins.baseNameOf ./.;
