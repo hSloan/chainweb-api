@@ -22,7 +22,7 @@ library
 
   build-depends:
       Decimal               >= 0.4.2 && < 0.6
-    , aeson                 ^>=1.4
+    , aeson
     , attoparsec            >= 0.13.0.2 && < 0.15
     , base                  >=4.7  && <5
     , base16-bytestring     ^>=0.1
@@ -33,7 +33,7 @@ library
     , data-default          ^>=0.7
     , hashable              >=1.2 && < 1.4
     , readable              ^>=0.3
-    , servant               ^>=0.16
+    , servant
     , text                  ^>=1.2
     , time                  >=1.8 && < 1.11
     , unordered-containers  ^>=0.2
